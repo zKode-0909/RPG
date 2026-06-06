@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8817b4ec9bcd134d8b082cb73da3abf, type: 3}
+  m_Name: TestQuestStage1Settings
+  m_EditorClassIdentifier: Prod.Quests::QuestStageDetailsSettings
+  stageID: <TestQuest>.<Stage1>
+  potentialNextStages:
+  - {fileID: 11400000, guid: 2dad6247cb7e7904e8bc9fd487b53c1a, type: 2}
+  questObjectives:
+  - {fileID: 11400000, guid: 2234ad7429bc51c4aa967629474c2947, type: 2}
+  - {fileID: 11400000, guid: 70bc6eeba777b9f4d98c67b80235a67a, type: 2}
+  stagePreReqs: []

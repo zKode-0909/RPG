@@ -1,0 +1,17 @@
+{
+    "name": "Prod.Quests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d6e54d992ff64df48ba20e04ece3ae87",
+        "GUID:1995dee72aa8de749bae2efd4607c0b2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

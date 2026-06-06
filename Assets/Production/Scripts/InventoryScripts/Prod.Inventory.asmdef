@@ -1,0 +1,17 @@
+{
+    "name": "Prod.Inventory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d6e54d992ff64df48ba20e04ece3ae87",
+        "GUID:973cdd3373a62334fa231e77ed0c6801"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

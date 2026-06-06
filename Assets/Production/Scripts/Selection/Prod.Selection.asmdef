@@ -1,0 +1,17 @@
+{
+    "name": "Prod.Selection",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d6e54d992ff64df48ba20e04ece3ae87",
+        "GUID:fdda551b0f59f4b489552d7b8c28f997"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

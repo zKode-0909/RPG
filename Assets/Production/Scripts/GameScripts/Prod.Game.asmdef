@@ -1,0 +1,23 @@
+{
+    "name": "Prod.Game",
+    "rootNamespace": "",
+    "references": [
+        "Prod.Player",
+        "Prod.Core",
+        "Prod.Quests",
+        "Production.Input",
+        "Prod.Selection",
+        "Prod.Entity",
+        "Unity.Collections",
+        "Unity.Burst"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

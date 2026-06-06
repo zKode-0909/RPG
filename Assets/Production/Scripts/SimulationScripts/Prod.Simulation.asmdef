@@ -1,0 +1,17 @@
+{
+    "name": "Prod.Simulation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d6e54d992ff64df48ba20e04ece3ae87",
+        "GUID:faf84d84fb3fdb343b3a8981d23142d2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
