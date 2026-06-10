@@ -16,10 +16,6 @@ public class Player : IQuester
     bool human;
     public bool Human => human;
 
-    Vector2 currentPosition;
-    Vector2 targetPosition;
-    public Vector2 CurrentPosition => currentPosition;
-
     bool hasTarget = false;
 
     float speed = 5f;
@@ -30,7 +26,7 @@ public class Player : IQuester
 
     public event Action<string> KilledEnemyEvent;
     public event Action<QuestIncrementEvent> QuestIncrementEvent;
-    public event Action<MovementData> UpdateMovementData;
+
     
 
     public Player(int entityID,string playerName,bool human) { 

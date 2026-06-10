@@ -35,6 +35,7 @@ public struct PlayerMoveJob : IJobParallelFor
 
         if (!playersMoving[index].hasTarget)
         {
+            playersMoving[index] = new MovementData(data.entityID, data.speed, data.targetLocation, data.targetLocation, false, newRender);
             return;
         }
 

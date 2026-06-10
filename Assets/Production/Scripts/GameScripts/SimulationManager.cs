@@ -1,4 +1,4 @@
-using Codice.CM.Common;
+
 using Unity.Collections;
 using Unity.Jobs;
 using UnityEngine;
@@ -58,8 +58,16 @@ public class SimulationManager : MonoBehaviour
         playerMovementJobHandle.Complete();
         jobScheduled = false;
         Debug.Log($"Reading players in moving list");
-        foreach (var player in playerLocationManager.PlayersMoving) {
-            Debug.Log($"{player.entityID} is at location: {player.currentLocation.x},{player.currentLocation.y}");
+        var playersToRender = playerLocationManager.PlayersToRender;
+        for (int i = 0; i < playersToRender.Count;i++) {
+            if (playerRegistry.TryGet(playersToRender.Dequeue(), out var playerToRender)){
+                if (playerLocationManager.PlayerMovingIdxToPlayerID.TryGetValue(playerToRender.EntityID, out var idx)) {
+                    var playerMovementData = playerLocationManager.PlayersMoving[idx];
+                    playerSpawner.TrySpawnPlayerMB(playerToRender, new Vector3(playerMovementData.currentLocation.x, 1, playerMovementData.currentLocation.y), playerHuman, out var playerMB);
+                }
+                
+            }
+            
         }
         
     }
